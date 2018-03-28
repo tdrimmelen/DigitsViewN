@@ -136,7 +136,7 @@ namespace ScoreboardV2Xaml
                 SHOTCLOCK.Text = String.Format("{0:00}", aResponse.Time);
                 if (aResponse.Time <= theAttentionTime)
                 {
-                    SHOTCLOCK.Fill = (SolidColorBrush)(new BrushConverter().ConvertFrom("#FFEBEBEB"));
+                    SHOTCLOCK.Fill = (SolidColorBrush)(new BrushConverter().ConvertFrom("#DCDEE0"));
                 }
                 else
                 {

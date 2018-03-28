@@ -1,16 +1,52 @@
-﻿<UserControl  x:Class="ScoreboardV2Xaml.MainControl" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mtl="clr-namespace:vMixTitleLibrary;assembly=vMixTitleLibrary" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" Width="2139" Height="1203" Panel.ZIndex="500" InputMethod.IsInputMethodEnabled="True">
+﻿<UserControl  x:Class="ScoreboardV2Xaml.MainControl" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mtl="clr-namespace:vMixTitleLibrary;assembly=vMixTitleLibrary" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" Width="1920" Height="1080" Panel.ZIndex="500" InputMethod.IsInputMethodEnabled="True">
     <Grid InputMethod.IsInputMethodEnabled="True">
-        <Image x:Name="BGIMG" Source="Images/Scoreboard.png"  VerticalAlignment="Top" Height="117.981" Margin="0,0,1805.63,0" />
-        <mtl:TextBlockDesign FontStyle="Normal" FontWeight="Black" FontFamily="Diodrum Semibold" Fill="#FF1A1A1A" FontSize="31" TextAlignment="Right" Text="88" x:Name="TIMEMINUTE" Width="41.991" Height="237.154" Margin="119.258,67.492,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Visible" InputMethod.IsInputMethodEnabled="True" />
-        <mtl:TextBlockDesign FontStyle="Normal" FontWeight="Black" FontFamily="Diodrum Semibold" Fill="#FF1A1A1A" FontSize="31" TextAlignment="Center" Text=":" x:Name="TIMESEMICOLON" Width="43.954" Height="237.154" Margin="144.19,67.231,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Visible" InputMethod.IsInputMethodEnabled="True" />
-        <mtl:TextBlockDesign FontStyle="Normal" FontWeight="Black" FontFamily="Diodrum Semibold" Fill="#FF1A1A1A" FontSize="31" TextAlignment="Left" Text="88" x:Name="TIMESECOND" Width="39.69" Height="237.154" Margin="169.958,67.492,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Visible" InputMethod.IsInputMethodEnabled="True" />
-        <mtl:TextBlockDesign FontStyle="Normal" FontWeight="Black" FontFamily="Diodrum Semibold" Fill="#FFF08C00" FontSize="31" TextAlignment="Center" Text="1e" x:Name="GAMEPART_TITLE" Width="38.586" Height="237.154" Margin="64.328,67.492,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Visible" InputMethod.IsInputMethodEnabled="True" />
-        <mtl:TextBlockDesign FontStyle="Normal" FontWeight="Black" FontFamily="Diodrum Semibold" Fill="#FF1A1A1A" FontSize="31" TextAlignment="Right" Text="88" x:Name="HOMESCORE" Width="40.967" Height="237.154" Margin="117.752,5.835,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Visible" InputMethod.IsInputMethodEnabled="True" />
-        <mtl:TextBlockDesign FontStyle="Normal" FontWeight="Black" FontFamily="Diodrum Semibold" Fill="#FF1A1A1A" FontSize="31" TextAlignment="Left" Text="88" x:Name="GUESTSCORE" Width="46.968" Height="237.154" Margin="176.575,5.835,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Visible" InputMethod.IsInputMethodEnabled="True" />
-        <mtl:TextBlockDesign FontStyle="Normal" FontWeight="Black" FontFamily="Diodrum Semibold" Fill="#FFEBEBEB" FontSize="31" TextAlignment="Center" Text="TOP" x:Name="HOMETEAM" Width="69.325" Height="237.154" Margin="21.039,5.835,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Visible" InputMethod.IsInputMethodEnabled="True" />
-        <mtl:TextBlockDesign FontStyle="Normal" FontWeight="Black" FontFamily="Diodrum Semibold" Fill="#FFEBEBEB" FontSize="31" TextAlignment="Center" Text="BLW" x:Name="GUESTTEAM" Width="69.698" Height="237.154" Margin="242.842,5.835,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Visible" InputMethod.IsInputMethodEnabled="True" />
-        <mtl:TextBlockDesign FontStyle="Normal" FontWeight="Black" FontFamily="Diodrum Semibold" FontSize="31" Text="88" x:Name="SHOTCLOCK" Width="46.547" Height="237.154" Margin="9.468,67.492,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Visible" InputMethod.IsInputMethodEnabled="True" Fill="#FF1A1A1A" TextAlignment="Justify" />
-        <mtl:TextBlockDesign FontStyle="Normal" FontWeight="Black" FontFamily="Diodrum Semibold" Fill="#FF1A1A1A" FontSize="31" TextAlignment="Center" Text="-" x:Name="HYPHEN" Width="16.316" Height="237.154" Margin="159.437,4.934,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Visible" InputMethod.IsInputMethodEnabled="True" RenderTransformOrigin="0.479,-0.931" />
+        <Image Height="1351.425" VerticalAlignment="Top" Source="Images/voorbeeld.png" Margin="-341.841,-2.405,31.93,-269.02" Visibility="Hidden"/>
+        <Image x:Name="BGIMG" Source="Images/Scoreboard.png"  VerticalAlignment="Top" Height="158.981" Margin="217.648,37.5,1414.982,0" />
+        <mtl:TextBlockDesign FontStyle="Normal" FontWeight="Black" FontFamily="Effra" Fill="White" FontSize="31" TextAlignment="Right" Text="88" x:Name="TIMEMINUTE" Width="41.991" Height="37.2" Margin="263.258,62.492,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Visible" InputMethod.IsInputMethodEnabled="True" Opacity="0.8" >
+            <mtl:TextBlockDesign.Effect>
+                <DropShadowEffect Direction="-45" ShadowDepth="1"/>
+            </mtl:TextBlockDesign.Effect>
+        </mtl:TextBlockDesign>
+        <mtl:TextBlockDesign FontStyle="Normal" FontWeight="Black" FontFamily="Effra" Fill="White" FontSize="31" TextAlignment="Center" Text=":" x:Name="TIMESEMICOLON" Width="43.954" Height="37.2" Margin="288.19,62.231,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Visible" InputMethod.IsInputMethodEnabled="True" Opacity="0.8" >
+            <mtl:TextBlockDesign.Effect>
+                <DropShadowEffect Direction="-45" ShadowDepth="1"/>
+            </mtl:TextBlockDesign.Effect>
+        </mtl:TextBlockDesign>
+        <mtl:TextBlockDesign FontStyle="Normal" FontWeight="Black" FontFamily="Effra" Fill="White" FontSize="31" TextAlignment="Left" Text="88" x:Name="TIMESECOND" Width="39.69" Height="37.2" Margin="313.958,62.492,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Visible" InputMethod.IsInputMethodEnabled="True" Opacity="0.8" >
+            <mtl:TextBlockDesign.Effect>
+                <DropShadowEffect Direction="-45" ShadowDepth="1"/>
+            </mtl:TextBlockDesign.Effect>
+        </mtl:TextBlockDesign>
+        <mtl:TextBlockDesign FontStyle="Normal" FontWeight="Black" FontFamily="Effra" Fill="White" FontSize="31" TextAlignment="Center" Text="1e" x:Name="GAMEPART_TITLE" Width="38.586" Height="37.2" Margin="380.633,62.492,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Visible" InputMethod.IsInputMethodEnabled="True" Opacity="0.8" >
+            <mtl:TextBlockDesign.Effect>
+                <DropShadowEffect Direction="-45" ShadowDepth="1"/>
+            </mtl:TextBlockDesign.Effect>
+        </mtl:TextBlockDesign>
+        <mtl:TextBlockDesign FontStyle="Normal" FontWeight="Black" FontFamily="Effra" Fill="White" FontSize="31" Text="88" x:Name="HOMESCORE" Width="40.967" Height="37.2" Margin="380.633,98.635,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Visible" InputMethod.IsInputMethodEnabled="True" Opacity="0.8"  >
+            <mtl:TextBlockDesign.Effect>
+                <DropShadowEffect Direction="-45" ShadowDepth="1"/>
+            </mtl:TextBlockDesign.Effect>
+        </mtl:TextBlockDesign>
+        <mtl:TextBlockDesign FontStyle="Normal" FontWeight="Black" FontFamily="Effra" Fill="White" FontSize="31" TextAlignment="Left" Text="88" x:Name="GUESTSCORE" Width="46.968" Height="37.2" Margin="380.633,135.835,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Visible" InputMethod.IsInputMethodEnabled="True" Opacity="0.8">
+            <mtl:TextBlockDesign.Effect>
+                <DropShadowEffect Direction="-45" ShadowDepth="1"/>
+            </mtl:TextBlockDesign.Effect>
+        </mtl:TextBlockDesign>
+        <mtl:TextBlockDesign FontStyle="Normal" FontWeight="Black" FontFamily="Effra" Fill="White" FontSize="31" TextAlignment="Center" Text="TOP" x:Name="HOMETEAM" Width="69.325" Height="37.2" Margin="276.039,98.835,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Visible" InputMethod.IsInputMethodEnabled="True" Opacity="0.8">
+            <mtl:TextBlockDesign.Effect>
+                <DropShadowEffect Direction="-45" ShadowDepth="1"/>
+            </mtl:TextBlockDesign.Effect>
+        </mtl:TextBlockDesign>
+        <mtl:TextBlockDesign FontStyle="Normal" FontWeight="Black" FontFamily="Effra" Fill="White" FontSize="31" TextAlignment="Center" Text="BLW" x:Name="GUESTTEAM" Width="69.698" Height="37.2" Margin="274.842,135.835,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Visible" InputMethod.IsInputMethodEnabled="True" Opacity="0.8">
+            <mtl:TextBlockDesign.Effect>
+                <DropShadowEffect Direction="-45" ShadowDepth="1"/>
+            </mtl:TextBlockDesign.Effect>
+        </mtl:TextBlockDesign>
+        <mtl:TextBlockDesign FontStyle="Normal" FontWeight="Black" FontFamily="Effra" Fill="White" FontSize="31" Text="88" x:Name="SHOTCLOCK" Width="46.547" Height="37.2" Margin="446.968,62.492,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Visible" InputMethod.IsInputMethodEnabled="True"  TextAlignment="Justify" Opacity="0.8">
+            <mtl:TextBlockDesign.Effect>
+                <DropShadowEffect Direction="-45" ShadowDepth="1"/>
+            </mtl:TextBlockDesign.Effect>
+        </mtl:TextBlockDesign>
     </Grid>
 </UserControl>
     
