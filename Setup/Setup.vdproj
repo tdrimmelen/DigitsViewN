@@ -15,8 +15,44 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_3444C615D17CA8FD92EB085EF5B08569"
+        "OwnerKey" = "8:_926B19D270EF49BEA50CF67C87783953"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_8DE90C0049184A3092D9A651113997E0"
         "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_926B19D270EF49BEA50CF67C87783953"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_93A121D1409266332562B19A3D4B3611"
+        "OwnerKey" = "8:_926B19D270EF49BEA50CF67C87783953"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_926B19D270EF49BEA50CF67C87783953"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_3444C615D17CA8FD92EB085EF5B08569"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_93A121D1409266332562B19A3D4B3611"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -114,6 +150,37 @@
         }
         "File"
         {
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3444C615D17CA8FD92EB085EF5B08569"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:DigitsViewLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f6b5149d49992bf3, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_3444C615D17CA8FD92EB085EF5B08569"
+                    {
+                    "Name" = "8:DigitsViewLib.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:DigitsViewLib.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_3E0351E11ECA41B28904C7B0B1A63280"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8DE90C0049184A3092D9A651113997E0"
             {
             "SourcePath" = "8:..\\ScoreBoardXaml\\Scoreboard.config"
@@ -132,6 +199,37 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_93A121D1409266332562B19A3D4B3611"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:vMixTitleLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_93A121D1409266332562B19A3D4B3611"
+                    {
+                    "Name" = "8:vMixTitleLibrary.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:vMixTitleLibrary.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_3E0351E11ECA41B28904C7B0B1A63280"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
         }
@@ -211,20 +309,20 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:DigitsViewZiggo v1.1.1"
-        "ProductCode" = "8:{0AF2DDC7-612E-4BA5-94AE-F48397F86A7C}"
-        "PackageCode" = "8:{EF4A9A5D-E792-4452-989A-98CC3FFA9E45}"
+        "ProductName" = "8:DigitsViewNOS v0.8"
+        "ProductCode" = "8:{1D91E250-2178-4104-8C91-CFDBC92FC35D}"
+        "PackageCode" = "8:{7AA28A35-E5EC-4005-8C79-D15FF203BCC1}"
         "UpgradeCode" = "8:{F45B6906-07D4-460D-8D91-85C28778BA37}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.1.1"
+        "ProductVersion" = "8:0.8.0"
         "Manufacturer" = "8:DigitsUtils"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:Digits View Ziggo"
+        "Title" = "8:Digits View NOS"
         "Subject" = "8:"
         "ARPCONTACT" = "8:"
         "Keywords" = "8:"
@@ -732,6 +830,34 @@
         }
         "ProjectOutput"
         {
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_926B19D270EF49BEA50CF67C87783953"
+            {
+            "SourcePath" = "8:..\\ScoreBoardXaml\\obj\\Release\\ScoreboardXaml.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_3E0351E11ECA41B28904C7B0B1A63280"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:1"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:Built"
+            "OutputProjectGuid" = "8:{F5FDFA2C-F0E9-4175-982A-A2AD23E3B289}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
         }
     }
 }

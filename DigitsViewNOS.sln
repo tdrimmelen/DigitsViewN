@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScoreboardNOS", "ScoreBoard
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{0FA14B3C-FD9F-4692-B8BA-CE24032CB229}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScoreboardNOSSmall", "ScoreBoardXamlKlein\ScoreboardNOSSmall.csproj", "{190CE6BB-770E-49D2-B569-8B2F7AAC6257}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,14 @@ Global
 		{0FA14B3C-FD9F-4692-B8BA-CE24032CB229}.Release|Any CPU.ActiveCfg = Release
 		{0FA14B3C-FD9F-4692-B8BA-CE24032CB229}.Release|Any CPU.Build.0 = Release
 		{0FA14B3C-FD9F-4692-B8BA-CE24032CB229}.Release|x64.ActiveCfg = Release
+		{190CE6BB-770E-49D2-B569-8B2F7AAC6257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{190CE6BB-770E-49D2-B569-8B2F7AAC6257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{190CE6BB-770E-49D2-B569-8B2F7AAC6257}.Debug|x64.ActiveCfg = Debug|x64
+		{190CE6BB-770E-49D2-B569-8B2F7AAC6257}.Debug|x64.Build.0 = Debug|x64
+		{190CE6BB-770E-49D2-B569-8B2F7AAC6257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{190CE6BB-770E-49D2-B569-8B2F7AAC6257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{190CE6BB-770E-49D2-B569-8B2F7AAC6257}.Release|x64.ActiveCfg = Release|x64
+		{190CE6BB-770E-49D2-B569-8B2F7AAC6257}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
