@@ -31,12 +31,12 @@
                 <DropShadowEffect Direction="-45" ShadowDepth="1" BlurRadius="5"/>
             </mtl:TextBlockDesign.Effect>
         </mtl:TextBlockDesign>
-        <mtl:TextBlockDesign FontStyle="Normal" FontWeight="Black" FontFamily="Effra" Fill="#FFDCDEe0" FontSize="32" TextAlignment="Center" Text="FOR" x:Name="HOMETEAM" Width="76.602" Height="38.4" Margin="276.281,100.671,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Visible" InputMethod.IsInputMethodEnabled="True" >
+        <mtl:TextBlockDesign FontStyle="Normal" FontWeight="Black" FontFamily="Effra" Fill="#FFDCDEe0" FontSize="32" TextAlignment="Center" Text="FOR" x:Name="HOMETEAM" Width="76.602" Height="38.4" Margin="280.281,100.671,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Visible" InputMethod.IsInputMethodEnabled="True" >
             <mtl:TextBlockDesign.Effect>
                 <DropShadowEffect Direction="-45" ShadowDepth="1" BlurRadius="5"/>
             </mtl:TextBlockDesign.Effect>
         </mtl:TextBlockDesign>
-        <mtl:TextBlockDesign FontStyle="Normal" FontWeight="Black" FontFamily="Effra" Fill="#FFDCDEe0" FontSize="32" TextAlignment="Center" Text="TOP" x:Name="GUESTTEAM" Width="77.014" Height="38.4" Margin="276.281,137.089,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Visible" InputMethod.IsInputMethodEnabled="True" >
+        <mtl:TextBlockDesign FontStyle="Normal" FontWeight="Black" FontFamily="Effra" Fill="#FFDCDEe0" FontSize="32" TextAlignment="Center" Text="TOP" x:Name="GUESTTEAM" Width="77.014" Height="38.4" Margin="280.281,137.089,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Visibility="Visible" InputMethod.IsInputMethodEnabled="True" >
             <mtl:TextBlockDesign.Effect>
                 <DropShadowEffect Direction="-45" ShadowDepth="1"  BlurRadius="5"/>
             </mtl:TextBlockDesign.Effect>

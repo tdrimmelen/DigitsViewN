@@ -18,6 +18,9 @@ namespace DigitsViewLib
         private System.Timers.Timer theTimer;
         private string theURL;
         private const int theRequestTimeout = 1000;
+        private const int theMaxRetry = 5;
+        private int theRetryCount;
+
         private Dispatcher theDispatcher;
 
         public ShotclockRetriever(Dispatcher aDispatcher, Action<ShotclockResponse> aDelegate, long aTime, string aURL)
@@ -59,11 +62,20 @@ namespace DigitsViewLib
 
                     theDispatcher.BeginInvoke(DispatcherPriority.Send, theDelegate, jsonResponse);
                 }
+                theRetryCount = 0;
             }
             catch (Exception e)
             {
                 Logger.Log("Error retrieving data: " + e.Message, EventLogEntryType.Error, Logger.Type.RetrieveFailure);
-                theDispatcher.BeginInvoke(DispatcherPriority.Send, theDelegate, null);
+                if (theRetryCount < theMaxRetry)
+                {
+                    theRetryCount++;
+                }
+                else
+                {
+                    theDispatcher.BeginInvoke(DispatcherPriority.Send, theDelegate, null);
+                }
+
             }
 
             theTimer.Enabled = true;

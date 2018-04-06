@@ -15,6 +15,8 @@ namespace DigitsViewLib
         public long Second { get; set; }
         [DataMember(Name = "minute")]
         public long Minute { get; set; }
+        [DataMember(Name = "running")]
+        public long Running { get; set; }
     }
 
 }
