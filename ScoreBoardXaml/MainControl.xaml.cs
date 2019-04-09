@@ -36,7 +36,8 @@ namespace ScoreboardV2Xaml
 
             string configFileName = baseFolder + "\\Scoreboard.config";
             string backgroundImageFile = "";
-          //  string zeroSubstitutionImageFile = "";
+            string backgroundShotclockImageFile = "";
+            //  string zeroSubstitutionImageFile = "";
             string substitutionInfo = "yes";
    
 
@@ -50,7 +51,8 @@ namespace ScoreboardV2Xaml
                 time = Int64.Parse(myConfig["refreshTime"]);
                 theAttentionTime = Int64.Parse(myConfig["attentionTime"]);
                 backgroundImageFile = myConfig["backgroundImageFile"];
-              //  zeroSubstitutionImageFile = myConfig["zeroSubstitutionImageFile"];
+                backgroundShotclockImageFile = myConfig["backgroundShotclockImageFile"];
+                //  zeroSubstitutionImageFile = myConfig["zeroSubstitutionImageFile"];
                 substitutionInfo = myConfig["substitutionInfo"];
             }
             catch(Exception e)
@@ -78,10 +80,15 @@ namespace ScoreboardV2Xaml
                 backgroundImageFile = baseFolder + @"/Images/scoreboard.png";
             }
 
+            if (backgroundShotclockImageFile == "")
+            {
+                backgroundShotclockImageFile = baseFolder + @"/Images/shotclock.png";
+            }
 
             // Initialise source
-            InitImageSource(BGIMG, backgroundImageFile );
-            
+            InitImageSource(BGIMG, backgroundImageFile);
+            InitImageSource(BGIMGSHOTCLOCK, backgroundShotclockImageFile);
+
             BitmapImage mySource = new BitmapImage();
             theShotclockStdColor = SHOTCLOCK.Fill;
        
@@ -133,14 +140,17 @@ namespace ScoreboardV2Xaml
 
             if (aResponse != null && aResponse.Status == "OK")
             {
-                SHOTCLOCK.Text = String.Format("{0}", aResponse.Time);
                 if (aResponse.Time <= theAttentionTime)
                 {
-                    SHOTCLOCK.Fill = new SolidColorBrush(Colors.Yellow);
+                    BGIMGSHOTCLOCK.Visibility = Visibility.Visible;
+                    SHOTCLOCK.Text = String.Format("{0}", aResponse.Time);
+                    SHOTCLOCK.Visibility = Visibility.Visible;
                 }
                 else
                 {
-                    SHOTCLOCK.Fill = theShotclockStdColor;
+                    BGIMGSHOTCLOCK.Visibility = Visibility.Hidden;
+                    SHOTCLOCK.Visibility = Visibility.Hidden;
+                    SHOTCLOCK.Text = "";
                 }
             }
             else

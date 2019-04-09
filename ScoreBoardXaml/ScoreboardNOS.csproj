@@ -98,10 +98,7 @@
     <Content Include="Images\Scoreboard.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Images\TOP uit\Scoreboard.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Images\TOP thuis\Scoreboard.png">
+    <Content Include="Images\Shotclock.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

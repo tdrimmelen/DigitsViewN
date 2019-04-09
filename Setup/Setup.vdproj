@@ -22,13 +22,13 @@
         "Entry"
         {
         "MsmKey" = "8:_3444C615D17CA8FD92EB085EF5B08569"
-        "OwnerKey" = "8:_46C41BE79EC4461689CF4D7669C4F077"
+        "OwnerKey" = "8:_0EE1142BD8EC4D8789B209560C15D691"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_3444C615D17CA8FD92EB085EF5B08569"
-        "OwnerKey" = "8:_0EE1142BD8EC4D8789B209560C15D691"
+        "OwnerKey" = "8:_46C41BE79EC4461689CF4D7669C4F077"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -46,13 +46,13 @@
         "Entry"
         {
         "MsmKey" = "8:_93A121D1409266332562B19A3D4B3611"
-        "OwnerKey" = "8:_46C41BE79EC4461689CF4D7669C4F077"
+        "OwnerKey" = "8:_0EE1142BD8EC4D8789B209560C15D691"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_93A121D1409266332562B19A3D4B3611"
-        "OwnerKey" = "8:_0EE1142BD8EC4D8789B209560C15D691"
+        "OwnerKey" = "8:_46C41BE79EC4461689CF4D7669C4F077"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -76,13 +76,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_93A121D1409266332562B19A3D4B3611"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_3444C615D17CA8FD92EB085EF5B08569"
+        "OwnerKey" = "8:_D7E5C7D93D764C76BEFAB7E3CD45D701"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -94,7 +88,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_D7E5C7D93D764C76BEFAB7E3CD45D701"
+        "OwnerKey" = "8:_3444C615D17CA8FD92EB085EF5B08569"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_93A121D1409266332562B19A3D4B3611"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -196,9 +196,14 @@
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:DigitsViewLib, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f6b5149d49992bf3, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:DigitsViewLib, Version=1.1.0.0, Culture=neutral, PublicKeyToken=f6b5149d49992bf3, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
+                    "_3444C615D17CA8FD92EB085EF5B08569"
+                    {
+                    "Name" = "8:DigitsViewLib.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
             "SourcePath" = "8:DigitsViewLib.dll"
             "TargetName" = "8:"
@@ -245,6 +250,11 @@
             "AssemblyAsmDisplayName" = "8:vMixTitleLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
+                    "_93A121D1409266332562B19A3D4B3611"
+                    {
+                    "Name" = "8:vMixTitleLibrary.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
             "SourcePath" = "8:vMixTitleLibrary.dll"
             "TargetName" = "8:"
@@ -361,16 +371,16 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:DigitsViewNOS v1.0"
-        "ProductCode" = "8:{D08DEF4D-6B0F-445E-BB0F-9C86C70DB023}"
-        "PackageCode" = "8:{439B2FB3-0448-4514-AD26-09F9951BE7D1}"
+        "ProductName" = "8:DigitsViewNOS v2.0"
+        "ProductCode" = "8:{1B6EAF6E-CC0A-472A-BA04-BFCF0ECD75D3}"
+        "PackageCode" = "8:{C0A38893-963C-4D64-8A53-470B279086A3}"
         "UpgradeCode" = "8:{F45B6906-07D4-460D-8D91-85C28778BA37}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.0.0"
+        "ProductVersion" = "8:2.0.0"
         "Manufacturer" = "8:DigitsUtils"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -884,7 +894,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_0EE1142BD8EC4D8789B209560C15D691"
             {
-            "SourcePath" = "8:..\\ScoreBoardXaml\\obj\\Release\\ScoreboardXaml.dll"
+            "SourcePath" = "8:"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_3E0351E11ECA41B28904C7B0B1A63280"
@@ -912,7 +922,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_46C41BE79EC4461689CF4D7669C4F077"
             {
-            "SourcePath" = "8:..\\ScoreBoardXamlKlein\\obj\\Release\\ScoreboardXamlSmall.dll"
+            "SourcePath" = "8:"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_3E0351E11ECA41B28904C7B0B1A63280"
